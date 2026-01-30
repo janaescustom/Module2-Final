@@ -1,5 +1,3 @@
-console.log('javascript')
-
 
 function openMenu() {
     document.body.classList += " menu--open"

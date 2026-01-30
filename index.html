@@ -33,24 +33,22 @@
           </div>
         </div>
         <button class="btn__menu" onclick="openMenu()">
-              <i class="fa-solid fa-bars"></i>
-        </button> 
-        <div class="menu">
-          <div class="menu__links">
+              <i class="fa-solid fa-bars btn__menu--icon"></i>
+        </button>  
+      </nav>
+      <div class="menu">
            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
              <i class="fa-solid fa-times"></i>
             </button>
            <div class="modal__links">
-           <a class="modal__link">About</a>
-           <a class="modal__link">Blog</a>
-           <a class="modal__link">Pricing</a>
-           <a class="modal__link">Contact Us</a>
-           <a class="modal__link">Login</a>
-           <a class="modal__link modal__link--primary btn">Sign Up</a>
+           <a href="" class="modal__link" onclick="closeMenu()">About</a>
+           <a href="" class="modal__link" onclick="closeMenu()">Blog</a>
+           <a href="#pricing" class="modal__link" onclick="closeMenu()">Pricing</a>
+           <a href="" class="modal__link" onclick="closeMenu()">Contact Us</a>
+           <a href="" class="modal__link" onclick="closeMenu()">Login</a>
+           <a href="" class="modal__link modal__link--primary btn" onclick="closeMenu()">Sign up</a>
            </div>
-          </div>
         </div>
-      </nav>
         
       <header>
         <div class="container">
@@ -624,6 +622,7 @@
                   </div>
                   <div class="testimonial__buttons">
                     <button class="testimonial__button"><i class="fa-solid fa-arrow-left"></i></button>
+                    <div class="divider"></div>
                     <button class="testimonial__button"><i class="fa-solid fa-arrow-right"></i></button>
                   </div>
                 </div>
